@@ -6,12 +6,12 @@ public class Address {
     String primaryAddress;
     Optional<String> secondaryAddress;
 
-    public Address(String primaryAddress, String secondaryAddress){
+    public Address(String primaryAddress, String secondaryAddress) {
         this.primaryAddress = primaryAddress;
-        this.secondaryAddress =  Optional.ofNullable(secondaryAddress);
+        this.secondaryAddress = Optional.ofNullable(secondaryAddress);
     }
 
-    public Address(String primaryAddress){
+    public Address(String primaryAddress) {
         this(primaryAddress, null);
     }
 
