@@ -15,12 +15,12 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", address=" + address +
-                '}';
+        return "Student{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + ", age=" + age
+                + ", address=" + address
+                + '}';
     }
 
 }
